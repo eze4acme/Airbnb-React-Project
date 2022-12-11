@@ -11,7 +11,7 @@ function Card(props) {
     }
   return (
     <div className='py-2.5 px-5 text-gray-200 relative'>
-        <img src={`../src/assets/${coverImg}`} className='rounded-lg max-w-full' />
+        <img src={`./src/assets/${coverImg}`} className='rounded-lg max-w-full' />
         <div className='flex mt-2 font-bold items-center md:text-sm'>
             <img src={StarLogo} alt="" />
             <span className='ml-1'>{rating}</span>
